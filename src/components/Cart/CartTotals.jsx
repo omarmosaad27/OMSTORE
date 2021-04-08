@@ -39,7 +39,7 @@ const CartTotals = ({value, history}) => {
                                 ${cartTotal}
                             </strong>
                         </h5>
-                        <PaypalButton total={cartTotal} clearCart={clearCart} history={history}/>
+                        <PaypalButton />
                     </div>
                 </div>
             </div>
